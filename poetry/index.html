@@ -1,0 +1,165 @@
+<html>
+<head>
+<title>E Bacon - Portfolio - Interaction Design</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<link rel="stylesheet" href="../E_Bacon.css" type="text/css">
+<script language="JavaScript">
+<!--
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.0
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && document.getElementById) x=document.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+//-->
+</script>
+
+<!-- arrows slide show script -->
+<SCRIPT language="JavaScript">
+<!--
+
+var solutionPix=new
+Array("images/fl-content-11.png","images/fl-content-01.png","images/fl-content-04.png","images/fl-content-08.png","images/fl-content-06.png","images/fl-content-03.png","images/fl-content-02.png","images/fl-content-05.png",
+"images/fl-content-09.png","images/fl-content-10.png","images/fl-content-07.png","images/fl-content-12.png","images/fl-content-13.png","images/fl-content-14.png","images/fl-content-15.png")
+
+var solutionPic=0
+
+function processPrevious2() {
+
+	if(document.images && solutionPic>0){
+		solutionPic--
+		document.changing.src=solutionPix[solutionPic]
+		}
+	else {
+		solutionPic=14
+		document.changing.src=solutionPix[solutionPic]
+	
+	}
+	}
+	
+function processNext2() {
+	
+	if(document.images && solutionPic<15){
+		solutionPic++
+		document.changing.src=solutionPix[solutionPic]
+		}
+	
+	if(document.images && solutionPic==15){
+		solutionPic=0
+		document.changing.src=solutionPix[solutionPic]
+		}
+	}
+
+//-->
+</SCRIPT>
+<!-- This preloads the arrow downstate rollovers -->
+<SCRIPT language="JavaScript">
+<!--
+RegularSolutionArrows = new Image (100,40) ;
+RegularSolutionArrows.src = "images/arrows-solution.png" 
+DownStateLeftSolutionArrows = new Image (100,40) ;
+DownStateLeftSolutionArrows.src = "images/arrows-solution-downleft.png"
+DownStateRightSolutionArrows = new Image (100,40) ;
+DownStateRightSolutionArrows.src = "images/arrows-solution-downright.png"
+
+//-->
+
+<!--
+
+
+
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+//-->
+</SCRIPT>
+</head>
+
+<body bgcolor="#FFFFFF" text="#666666" LINK="#3399CC" ALINK="#6699CC" VLINK="#3399CC" class="E_Bacon" onLoad="MM_preloadImages('../images/logo-website-reverse.png')">
+<table width="94%" border="0">
+  <tr> 
+      <td width="21%" height="91"> 
+           <div align="center"><img src="../images/logo-website-reverse.png" width="110" height="104"></div>
+         </td>
+    <td width="81%" height="107"> 
+      <div align="center"><img src="../images/header-ebacon%20home.png" width="370" height="80"><a name="top"></a></div>
+    </td>
+  </tr>
+</table>
+<table width="94%" border="0" height="829">
+  <tr> 
+    <td width="65%" height="23" valign="top"> <div align="center"><a href="../portfolio/index.html"><img src="../images/nav-portfolio.png" width="98" height="32" border="0"></a> 
+      </div></td>
+    <td width="17%" height="23" valign="top"><img src="../images/nav-poetry.png" width="64" height="29" border="0"></td>
+    <td width="18%" height="23" valign="top">&nbsp;</td>
+  </tr>
+  <tr valign="top"> 
+    <td height="800" colspan="3"> <br> <table width="100%" border="0">
+        <tr> 
+          <td height="800" width="13%" valign="top"> <div align="center"> 
+              <p align="right"><img src="../portfolio/images/arrows-solution.png" width="100" height="40" USEMAP="#solution_arrows" name="solution_arrows" border="0"></p>
+            </div></td>
+          <td height="800" width="41%" valign="top"> <div align="center"><img src="images/fl-content-11.png" width="500" height="800" name="changing"></div></td>
+          <td height="800" width="46%" valign="top"> <p><b></b> <font size="2"><br>
+              </font></p>
+            <p align="center"><font size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong><br>
+              <br>
+              <br>
+              <br>
+              <br>
+              <font color="#3399CC" size="1">...de la poesie...</font></strong></font></p>
+            <p align="center"><font color="#3399CC" size="1"><strong><font face="Verdana, Arial, Helvetica, sans-serif">by 
+              EB</font></strong></font></p>
+            <p>&nbsp;</p></td>
+        </tr>
+      </table></td>
+  </tr>
+</table>
+<table width="94%" border="0">
+  <tr> 
+    <td height="71"> 
+      <div align="center">
+        <p><font size="2" color="#3399CC"></font></p>
+      </div>
+    </td>
+  </tr>
+  <tr> 
+    <td> 
+      <p align="center"><font size="1"><br>
+        &copy; Elizabeth Bacon</font><font size="1"> <br>
+        All rights reserved</font></p>
+      <p align="center"><font size="1"><i><a href="#top">top</a></i><br>
+        </font></p>
+    </td>
+  </tr>
+</table>
+<p>&nbsp;</p>
+<p>&nbsp; </p>
+
+<MAP Name="solution_arrows" id="solution_arrows">
+  <AREA Shape="Rect" coords = "8,3,42,38"  HREF="javascript:processPrevious2()" onMouseOver="solution_arrows.src = DownStateLeftSolutionArrows.src"
+onMouseOut="solution_arrows.src = RegularSolutionArrows.src" alt="previous">
+  <AREA Shape="Rect" coords = "60,1,94,37"  HREF="javascript:processNext2()" onMouseOver="solution_arrows.src = DownStateRightSolutionArrows.src"
+onMouseOut="solution_arrows.src = RegularSolutionArrows.src" alt="next">
+</MAP>
+
+</body>
+</html>

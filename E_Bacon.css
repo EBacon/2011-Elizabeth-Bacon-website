@@ -1,0 +1,20 @@
+.E_Bacon {  
+	font-family: Verdana, Arial, Helvetica, sans-serif; 
+	font-size: 12px; 
+	font-style: normal; 
+	font-weight: normal; 
+	font-variant: normal; 
+	color: #333333; 
+	text-decoration: none; 
+	background-color: #FFFFFF; 
+	letter-spacing: normal; 
+	text-align: left; 
+	list-style-type: square
+}
+
+.photos {  
+	font-family: Verdana, Arial, Helvetica, sans-serif; 
+	font-size: small; 
+	font-style: normal; 
+	font-weight: bold
+}
